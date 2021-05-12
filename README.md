@@ -1,6 +1,18 @@
 This is my first budget project based on Java and Spring.
 
-I like Java and Spring
-JS in not so great.
-Java 5
-Kotlin lang
+### Git - dobre praktyki 
+- przed mergem/pull/przełączeniem branchy -  drzewo robocze powinno byc czyste
+- usuwamy tylko branch na którym aktualnie sie nie znajdujemy
+  (nie podcina śie gałęzi na której siedzimy)
+  
+### Git - przydatne komendy 
+git status - co sie dzieje w repo
+git log - historia
+git log --graph - rysuje graf historii
+git add . - dodaje do stage'a wszystkie zmienione/nowe pliki
+(wtedy można dopiero comitować)
+git commit -m  "co sie zmienia " - zapis zmian do repozytorium
+git branch -a - wyświetl wszystkie branche
+q powrót na włściwą ścieżkę
+git checkout nazwa_brancha - przełączenia na inny branch
+git checkout -b nazwa_brancha - przełączenie na właśnie tworzony/nowy branch
