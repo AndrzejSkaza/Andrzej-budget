@@ -14,4 +14,5 @@ git add . - dodaje do stage'a wszystkie zmienione/nowe pliki
 git commit -m  "co sie zmienia " - zapis zmian do repozytorium
 git branch -a - wyświetl wszystkie branche
 q powrót na włściwą ścieżkę
-git 
+git checkout nazwa_brancha - przełączenia na inny branch
+git checkout -b nazwa_brancha - przełączenie na właśnie tworzony/nowy branch
